@@ -156,6 +156,7 @@
             padding: 8px 10px;
             margin: 0 80px;
             transition: 0.3s;
+            
         }
 
 
@@ -426,11 +427,21 @@
                 font-size: 11px
             }
         }
+
+        h2  {
+            color: #fac031;
+            margin-left: 15px;
+            font-family: mv boli;
+            font-weight: bold;
+            font-size: 400%;
+        }
     </style>
     {% block content %}
-    <!-- <center>
+
+    <center>
+
         <h2>KP's Kitchen Diary</h2>
-    </center> -->
+    </center>
 
     <div class="slideshow-container">
 
@@ -497,6 +508,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
+                    <br>
                     <a href="/explore/{{produc.id}}" class="menu_btn">Explore</a>
 
                 </div>
